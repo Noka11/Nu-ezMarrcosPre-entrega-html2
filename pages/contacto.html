@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futbol Total</title>
 </head>
+
 <body>
     <header>
-        <a href="../index.html"> 
-        <img src="../assets/img/logo.png.jpg" alt="Logo Fútbol Total" style="width: 150px; height: auto; display: block; margin: 0 auto;"> </a>
+        <a href="../index.html">
+            <img src="../assets/img/logo.jpg" alt="Logo Fútbol Total"> </a>
         <h1>Futbol Total</h1>
         <nav>
             <ul>
@@ -20,26 +22,40 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Ponte en contacto con nosotros</h1>
-            <h2>Querés sugerirnos un equipo para analizar?</h2>
-            <h2>¿Tenés dudas sobre alguna estadística?</h2>
+         <h1>Ponte en contacto con nosotros</h1>
+    <section>
+            <h2>¿Querés sugerirnos un equipo para analizar o Tenés dudas sobre alguna estadística?</h2>
+            Tenés dudas sobre alguna estadística?
             <p> ¡Dejanos tu mensaje y sumate a nuestra comunidad futbolera!". </p>
         </section>
         <section>
-            <h3>Formulario de contacto</h3>
-            <form>
-                <label for="nombre-cliente">Ingrese su nombre completo:</label>
-                 <input id= "nombre-cliente" name="nombre-cliente" type="text" placeholder="Ej: Juan Pérez" required>
-                 <label for="email-cliente">Ingrese su correo electrónico:</label>
-                 <input id="email-cliente" name="email-cliente" type="email" placeholder="Ej: juan@perez.com" required>
-                 <label for="telefono-contacto">Ingrese su número de teléfono:</label>
-                 <input id="telefono-contacto" name="telefono-contacto" type="number" placeholder="Ej: 123456789" required>
-                 <label for="mensaje-cliente">Ingrese su mensaje:</label>
-                 <textarea name="mensaje-cliente" id="mensaje-cliente"required minlength="5"></textarea>
-                 <button type="submit">Enviar</button>
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre-cliente">Ingrese su nombre completo:</label>
+                    <input id="nombre-cliente" name="nombre-cliente" type="text" placeholder="Ej: Juan Pérez" required>
+                </div>
+                <div>
+                    <label for="email-cliente">Ingrese su correo electrónico:</label>
+                    <input id="email-cliente" name="email-cliente" type="email" placeholder="Ej: juan@perez.com"
+                        required>
+                </div>
+                <div>
+                    <label for="telefono-contacto">Ingrese su número de teléfono:</label>
+                    <input id="telefono-contacto" name="telefono-contacto" type="tel" placeholder="Ej: 123456789"
+                        required>
+                </div>
+                <div>
+                    <label for="mensaje-cliente">Ingrese su mensaje:</label>
+                    <textarea name="mensaje-cliente" id="mensaje-cliente" rows="5" placeholder="Ej: Escriba su mensaje aquí..." required minlength="5"></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
             </form>
-</main>
-<footer> <p>&copy; 2026 Fútbol Total</p> </footer>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Fútbol Total- Todos los derechos reservados</p>
+    </footer>
 </body>
-</html
+
+</html>
